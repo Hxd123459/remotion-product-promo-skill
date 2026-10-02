@@ -1,6 +1,6 @@
 # Remotion Product Promo Skill
 
-把产品宣传片做成可理解的故事，而不是功能清单。这个 Agent Skill 固定了我们制作 Roadbook 宣传片时反复验证过的做法：真实产品演示、情绪递进、音乐高潮、光标点击反馈、音效同步，以及最终合成检查。
+把产品宣传片做成可理解的故事，而不是功能清单。这个 Agent Skill 会先确认横屏或竖屏，核对品牌素材，让封面和后续产品画面保持叙事与视觉上的联系，再制作真实产品演示、音画同步和最终合成检查。
 
 技能遵循 [Agent Skills 开放格式](https://agentskills.io/specification)。核心文件位于 [`skills/remotion-product-promo/SKILL.md`](skills/remotion-product-promo/SKILL.md)，案例和实现细节位于 [`references/production-patterns.md`](skills/remotion-product-promo/references/production-patterns.md)。随附白色光标 SVG、轻点击、柔和页面切换和分享 whoosh 音效。**不包含背景音乐或 Roadbook 项目源码**；制作新片时应使用该产品自己的真实界面和有使用权的音乐。
 
@@ -32,7 +32,7 @@ npx skills list -g
 
 可以这样下达任务：
 
-> 使用 remotion-product-promo。阅读这个产品的官网演示和实际操作代码，先列出 45 秒节拍表，再制作第一版宣传片。产品出现后的第一个操作与音乐高潮对齐；每次点击都检查光标尖端、脉冲、按钮反馈和音效。保留现有已确认的视频版本。
+> 使用 remotion-product-promo。先让我选择横屏、竖屏或双画幅。阅读这个产品的官网演示和实际操作代码，核对正式 Logo 与界面，再设计封面、开场和首个产品镜头的连续画面。列出节拍表后制作宣传片；每次点击都检查光标、按钮反馈和音效。保留现有已确认的视频版本。
 
 更新和移除用户级安装：
 
